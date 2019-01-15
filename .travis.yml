@@ -19,3 +19,8 @@ script:
 - python manage.py test
 addons:
   postgresql: "9.6"
+deploy:
+  provider: heroku
+  api_key: 516fca26-994c-424b-b55e-65cf37cb51cf
+  app: egc18191530pabreblob
+
